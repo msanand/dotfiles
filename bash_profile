@@ -48,3 +48,6 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 export PATH="/usr/local/Cellar/ruby/2.1.1/bin:$PATH"
+
+export http_proxy=http://proxy:8080
+export https_proxy=http://proxy:8080
